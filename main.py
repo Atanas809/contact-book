@@ -20,3 +20,9 @@ def add_contact(phones, name_of_book):
     if name not in phones.keys():
         phones[name] = phone_number
         print("-" * 20)
+        print(f"Added new contact: {name} -> {phone_number}")
+        print("-" * 20)
+        what_do_you_want = input("(A) for add contact"
+                                 "\n(S) for phonebook status"
+                                 "\nEnter your choice: ").upper()
+        if what_do_you_want == "A":
