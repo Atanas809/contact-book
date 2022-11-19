@@ -31,3 +31,7 @@ def add_contact(phones, name_of_book):
             status(phones, name_of_book)
     else:
         print("-" * 20)
+        print(f"Contact already added")
+
+        
+def contact_book():
