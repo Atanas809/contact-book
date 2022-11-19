@@ -13,3 +13,6 @@ def status(phones, name):
 
         
 def add_contact(phones, name_of_book):
+    print("*" * 20)
+    name = input("Enter a contact name: ")
+    phone_number = input("Enter a phone number: ")
