@@ -10,3 +10,6 @@ def status(phones, name):
         for key, value in phones.items():
             print(f"{key} --> {value}")
         print("%" * 20)
+
+        
+def add_contact(phones, name_of_book):
