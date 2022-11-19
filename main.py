@@ -35,3 +35,5 @@ def add_contact(phones, name_of_book):
 
         
 def contact_book():
+    phones = dict()
+    name_of_contact_book = input("Enter your phonebook name: ")
