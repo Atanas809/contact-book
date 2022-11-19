@@ -5,3 +5,5 @@ def status(phones, name):
     if len(phones.keys()) == 0:
         print(f"You don't have any contacts now, please add some and then come back here!")
         add_contact(phones, name)
+    else:
+        print("%" * 20)
