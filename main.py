@@ -7,3 +7,6 @@ def status(phones, name):
         add_contact(phones, name)
     else:
         print("%" * 20)
+        for key, value in phones.items():
+            print(f"{key} --> {value}")
+        print("%" * 20)
